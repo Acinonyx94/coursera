@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+#header-nav {
+	background-color: #b6b6b6;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	margin: 0;
+	float: left;
+	color: #000000;
+}
+
+section {
+	margin: 0 15px 0;
+}
+
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+	background-color: #404040;
+	color: #ffffff;
+	height: 1000px;
+}
+
+#nav-list {
+	color: black;
+	background-color: #e7e7e7;
+}
+
+
+@media (min-width: 768px) {
+	#nav-list {
+		display: none;
+	}
+}
+
